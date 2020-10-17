@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <Options>
+    <ByPassMinimize>yes</ByPassMinimize>
+    <AlwaysOnTop>yes</AlwaysOnTop>
+    <CharacterNameOnWindowTitle>no</CharacterNameOnWindowTitle>
+    <CloseWithBot>no</CloseWithBot>
+    <TakeSSXLog>no</TakeSSXLog>
+    <FullLight>no</FullLight>
+    <SoftFullLight>no</SoftFullLight>
+    <AntiIdle>no</AntiIdle>
+    <EatFood>no</EatFood>
+    <XRay>no</XRay>
+    <PauseKey>Pause</PauseKey>
+    <SoftPauseKey>ShiftKey+Pause</SoftPauseKey>
+    <DancerKey>None</DancerKey>
+    <ShowBotKey>ShiftKey+Scroll</ShowBotKey>
+  </Options>
+  <Alerts>
+    <LogoutInsteadXLog>yes</LogoutInsteadXLog>
+    <ScreenMultiFloor>yes</ScreenMultiFloor>
+    <ScreenMultiFloorRange>+-2</ScreenMultiFloorRange>
+    <ScreenVisible>yes</ScreenVisible>
+    <LogFile>no</LogFile>
+    <LogConsole>no</LogConsole>
+    <PlayerOnScreen>
+      <PlaySound>no</PlaySound>
+      <Xlog>no</Xlog>
+      <PauseBot>no</PauseBot>
+      <Flash>no</Flash>
+      <EnableCavebot>no</EnableCavebot>
+      <SafeList />
+    </PlayerOnScreen>
+    <MonsterOnScreen>
+      <PlaySound>no</PlaySound>
+      <Xlog>no</Xlog>
+      <PauseBot>no</PauseBot>
+      <Flash>no</Flash>
+      <EnableCavebot>no</EnableCavebot>
+      <SafeList />
+    </MonsterOnScreen>
+    <HealthBelow>
+      <PlaySound>no</PlaySound>
+      <Xlog>no</Xlog>
+      <PauseBot>no</PauseBot>
+      <Flash>no</Flash>
+      <EnableCavebot>no</EnableCavebot>
+      <Value>0</Value>
+    </HealthBelow>
+    <Moved>
+      <PlaySound>no</PlaySound>
+      <Xlog>no</Xlog>
+      <PauseBot>no</PauseBot>
+      <Flash>no</Flash>
+      <EnableCavebot>no</EnableCavebot>
+    </Moved>
+    <ManaBelow>
+      <PlaySound>no</PlaySound>
+      <Xlog>no</Xlog>
+      <PauseBot>no</PauseBot>
+      <Flash>no</Flash>
+      <EnableCavebot>no</EnableCavebot>
+      <Value>30</Value>
+    </ManaBelow>
+    <GMDetected>
+      <PlaySound>no</PlaySound>
+      <Xlog>no</Xlog>
+      <PauseBot>no</PauseBot>
+      <Flash>no</Flash>
+      <EnableCavebot>no</EnableCavebot>
+      <TeleportRange>0</TeleportRange>
+    </GMDetected>
+    <PrivateMessage>
+      <PlaySound>no</PlaySound>
+      <Xlog>no</Xlog>
+      <PauseBot>no</PauseBot>
+      <Flash>no</Flash>
+      <EnableCavebot>no</EnableCavebot>
+      <SafeList />
+    </PrivateMessage>
+    <Disconnected>
+      <PlaySound>no</PlaySound>
+      <Xlog>no</Xlog>
+      <PauseBot>no</PauseBot>
+      <Flash>no</Flash>
+      <EnableCavebot>no</EnableCavebot>
+    </Disconnected>
+    <PlayerAttack>
+      <PlaySound>no</PlaySound>
+      <Xlog>no</Xlog>
+      <PauseBot>no</PauseBot>
+      <Flash>no</Flash>
+      <EnableCavebot>no</EnableCavebot>
+      <SafeList />
+    </PlayerAttack>
+    <CAP>
+      <PlaySound>no</PlaySound>
+      <Xlog>no</Xlog>
+      <PauseBot>no</PauseBot>
+      <Flash>no</Flash>
+      <EnableCavebot>no</EnableCavebot>
+      <Value>30</Value>
+    </CAP>
+    <Stuck>
+      <PlaySound>no</PlaySound>
+      <Xlog>no</Xlog>
+      <PauseBot>no</PauseBot>
+      <Flash>no</Flash>
+      <EnableCavebot>no</EnableCavebot>
+      <Value>60</Value>
+    </Stuck>
+    <PlayerKiller>
+      <PlaySound>no</PlaySound>
+      <Xlog>no</Xlog>
+      <PauseBot>no</PauseBot>
+      <Flash>no</Flash>
+      <EnableCavebot>no</EnableCavebot>
+      <SafeList />
+    </PlayerKiller>
+    <ChannelMessage>
+      <PlaySound>no</PlaySound>
+      <Xlog>no</Xlog>
+      <PauseBot>no</PauseBot>
+      <Flash>no</Flash>
+      <EnableCavebot>no</EnableCavebot>
+      <SafeList />
+    </ChannelMessage>
+    <ItemOnScreen>
+      <PlaySound>no</PlaySound>
+      <Xlog>no</Xlog>
+      <PauseBot>no</PauseBot>
+      <Flash>no</Flash>
+      <EnableCavebot>no</EnableCavebot>
+      <List />
+    </ItemOnScreen>
+    <VipOnline>
+      <PlaySound>no</PlaySound>
+      <Xlog>no</Xlog>
+      <PauseBot>no</PauseBot>
+      <Flash>no</Flash>
+      <EnableCavebot>no</EnableCavebot>
+      <List />
+    </VipOnline>
+    <SafeList />
+  </Alerts>
+  <Healer>
+    <List>
+      <healrule0>
+        <Condition>Health Percent below</Condition>
+        <ConditionMin>43</ConditionMin>
+        <ConditionMax>63</ConditionMax>
+        <ExtraCondition>---</ExtraCondition>
+        <ExtraConditionMin>0</ExtraConditionMin>
+        <ExtraConditionMax>0</ExtraConditionMax>
+        <Priority>0</Priority>
+        <SpamRate_Min>200</SpamRate_Min>
+        <SpamRate_Max>500</SpamRate_Max>
+        <Spell>Ultimate Healing Rune</Spell>
+        <Enabled>yes</Enabled>
+      </healrule0>
+      <healrule1>
+        <Condition>Health Percent below</Condition>
+        <ConditionMin>85</ConditionMin>
+        <ConditionMax>90</ConditionMax>
+        <ExtraCondition>---</ExtraCondition>
+        <ExtraConditionMin>0</ExtraConditionMin>
+        <ExtraConditionMax>0</ExtraConditionMax>
+        <Priority>1</Priority>
+        <SpamRate_Min>200</SpamRate_Min>
+        <SpamRate_Max>500</SpamRate_Max>
+        <Spell>Light Healing</Spell>
+        <Enabled>yes</Enabled>
+      </healrule1>
+    </List>
+    <FindMoreRunes>yes</FindMoreRunes>
+    <SmartCheck>no</SmartCheck>
+    <Enabled>yes</Enabled>
+  </Healer>
+  <Hotkeys>
+    <List />
+    <Enabled>no</Enabled>
+  </Hotkeys>
+  <Cavebot>
+    <NodeRange>1</NodeRange>
+    <FireAvoidance>15</FireAvoidance>
+    <PoisonAvoidance>15</PoisonAvoidance>
+    <EnergyAvoidance>15</EnergyAvoidance>
+    <MapClicksOnly>no</MapClicksOnly>
+    <OldCavebotSystem>no</OldCavebotSystem>
+    <WalkableIds>1487;1488;1489;1490;1491;1492;1493;1494;1495;1496;1500;1501;1502;1503;1504;1505;1506;1507;1508;1646;1647;1648;1649;1650;1651;1652;1653;1654;1655;1656;1657;1658;1659;1660;1661;1662;1663;1664;1665;1666;1667;1668;1669;1670;1671;1672;1673;1674;1675;1676;1677;1694;1695;1696;1697;1698;1699;1700;1701;1702;1703;1704;1705;1706;1707;1708;1709;1738;1739;1741;2100;2102;2595;2596</WalkableIds>
+    <UnwalkableIds />
+    <SkipMethod>Skip</SkipMethod>
+    <SkipMethod_PlaySound>no</SkipMethod_PlaySound>
+    <SkipMethod_Log>no</SkipMethod_Log>
+    <Setup />
+    <Waypoints>
+      <Waypoint type="Action" name="" x="31933" y="32107" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31933, 32108, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31934" y="32107" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31934, 32108, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31935" y="32107" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31935, 32108, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31936" y="32107" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31936, 32108, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31937" y="32107" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31937, 32108, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31938" y="32107" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31938, 32108, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31939" y="32107" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31939, 32108, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31933" y="32108" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31933, 32109, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31934" y="32108" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31934, 32109, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31935" y="32108" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31935, 32109, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31936" y="32108" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31936, 32109, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31937" y="32108" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31937, 32109, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31938" y="32108" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31938, 32109, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31939" y="32108" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31939, 32109, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31933" y="32109" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31933, 32110, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31934" y="32109" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31934, 32110, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31935" y="32109" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31935, 32110, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31936" y="32109" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31936, 32110, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31937" y="32109" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31937, 32110, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31938" y="32109" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31938, 32110, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31939" y="32109" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31939, 32110, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31933" y="32110" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31933, 32111, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31934" y="32110" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31934, 32111, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31935" y="32110" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31935, 32111, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31936" y="32110" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31936, 32111, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31937" y="32110" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31937, 32111, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31938" y="32110" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31938, 32111, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31939" y="32110" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31939, 32111, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31933" y="32111" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31933, 32112, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31934" y="32111" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31934, 32112, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31935" y="32111" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31935, 32112, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31936" y="32111" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31936, 32112, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31937" y="32111" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31937, 32112, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31938" y="32111" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31938, 32112, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31939" y="32111" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31939, 32112, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31933" y="32112" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31933, 32113, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31934" y="32112" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31934, 32113, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31935" y="32112" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31935, 32113, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31936" y="32112" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31936, 32113, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31937" y="32112" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31937, 32113, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31938" y="32112" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31938, 32113, 7)#xdprobot;wait (60*10, 60*20)" />
+      <Waypoint type="Action" name="" x="31939" y="32112" z="7" rangeX="1" rangeY="1" script="useitemon(4659, 31939, 32113, 7)#xdprobot;wait (60*10, 60*20)" />
+    </Waypoints>
+  </Cavebot>
+  <Looter>
+    <EatFoodBodies>yes</EatFoodBodies>
+    <OpenNextBps>no</OpenNextBps>
+    <SafeLooting>no</SafeLooting>
+    <LootOnlyTargets>yes</LootOnlyTargets>
+    <DontOpenBags>no</DontOpenBags>
+    <MoveSpeed>350</MoveSpeed>
+    <ConsiderPing>yes</ConsiderPing>
+    <Style>0</Style>
+    <MaxDistBody>15</MaxDistBody>
+    <List>
+      <i0>
+        <ItemName>gold coin</ItemName>
+        <ItemId>2148</ItemId>
+        <Action>Loot</Action>
+        <Destination />
+        <DropNoCap>no</DropNoCap>
+      </i0>
+      <i1>
+        <ItemName>halberd</ItemName>
+        <ItemId>2381</ItemId>
+        <Action>Drop</Action>
+        <Destination />
+        <DropNoCap>no</DropNoCap>
+      </i1>
+      <i2>
+        <ItemName>battle shield</ItemName>
+        <ItemId>2513</ItemId>
+        <Action>Drop</Action>
+        <Destination />
+        <DropNoCap>no</DropNoCap>
+      </i2>
+      <i3>
+        <ItemName>steel shield</ItemName>
+        <ItemId>2509</ItemId>
+        <Action>Drop</Action>
+        <Destination />
+        <DropNoCap>no</DropNoCap>
+      </i3>
+      <i4>
+        <ItemName>bolt</ItemName>
+        <ItemId>2543</ItemId>
+        <Action>Loot</Action>
+        <Destination />
+        <DropNoCap>no</DropNoCap>
+      </i4>
+      <i5>
+        <ItemName>hunting bolt</ItemName>
+        <ItemId>3152</ItemId>
+        <Action>Loot</Action>
+        <Destination />
+        <DropNoCap>no</DropNoCap>
+      </i5>
+      <i6>
+        <ItemName>brass armor</ItemName>
+        <ItemId>2465</ItemId>
+        <Action>Drop</Action>
+        <Destination />
+        <DropNoCap>no</DropNoCap>
+      </i6>
+      <i7>
+        <ItemName>plate shield</ItemName>
+        <ItemId>2510</ItemId>
+        <Action>Drop</Action>
+        <Destination />
+        <DropNoCap>no</DropNoCap>
+      </i7>
+      <i8>
+        <ItemName>club ring</ItemName>
+        <ItemId>2166</ItemId>
+        <Action>Loot</Action>
+        <Destination />
+        <DropNoCap>no</DropNoCap>
+      </i8>
+    </List>
+    <CountLootedCreatures>yes</CountLootedCreatures>
+    <Enabled>yes</Enabled>
+  </Looter>
+  <Targeting>
+    <TargetingMode>1</TargetingMode>
+    <SafeAttack>no</SafeAttack>
+    <FindMoreRunes>no</FindMoreRunes>
+    <AttackRange>0</AttackRange>
+    <RuneRange>0</RuneRange>
+    <OldTargetingSystem>no</OldTargetingSystem>
+    <CountKilledCreatures>yes</CountKilledCreatures>
+    <List>
+      <t0>
+        <Name>Crocodile</Name>
+        <Category />
+        <DontLoot>no</DontLoot>
+        <OpenBag>Looter's setting value</OpenBag>
+        <PlayAlarm>no</PlayAlarm>
+        <OnlyIfTrapped>no</OnlyIfTrapped>
+        <Skin>No skin</Skin>
+        <Count>Any</Count>
+        <Settings>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>100</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>Chase/Offensive</AttackMode>
+          </Setting>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>0</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>No change</AttackMode>
+          </Setting>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>0</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>No change</AttackMode>
+          </Setting>
+        </Settings>
+      </t0>
+      <t1>
+        <Name>Cyclops Warrior</Name>
+        <Category />
+        <DontLoot>no</DontLoot>
+        <OpenBag>Looter's setting value</OpenBag>
+        <PlayAlarm>no</PlayAlarm>
+        <OnlyIfTrapped>no</OnlyIfTrapped>
+        <Skin>No skin</Skin>
+        <Count>Any</Count>
+        <Settings>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>100</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>Chase/Offensive</AttackMode>
+          </Setting>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>0</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>No change</AttackMode>
+          </Setting>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>0</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>No change</AttackMode>
+          </Setting>
+        </Settings>
+      </t1>
+      <t2>
+        <Name>Cyclops</Name>
+        <Category />
+        <DontLoot>no</DontLoot>
+        <OpenBag>Looter's setting value</OpenBag>
+        <PlayAlarm>no</PlayAlarm>
+        <OnlyIfTrapped>no</OnlyIfTrapped>
+        <Skin>No skin</Skin>
+        <Count>Any</Count>
+        <Settings>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>100</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>Chase/Offensive</AttackMode>
+          </Setting>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>0</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>No change</AttackMode>
+          </Setting>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>0</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>No change</AttackMode>
+          </Setting>
+        </Settings>
+      </t2>
+      <t3>
+        <Name>Minotaur Archer</Name>
+        <Category />
+        <DontLoot>no</DontLoot>
+        <OpenBag>Looter's setting value</OpenBag>
+        <PlayAlarm>no</PlayAlarm>
+        <OnlyIfTrapped>no</OnlyIfTrapped>
+        <Skin>No skin</Skin>
+        <Count>Any</Count>
+        <Settings>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>100</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>Chase/Offensive</AttackMode>
+          </Setting>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>0</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>No change</AttackMode>
+          </Setting>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>0</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>No change</AttackMode>
+          </Setting>
+        </Settings>
+      </t3>
+      <t4>
+        <Name>Minotaur Guard</Name>
+        <Category />
+        <DontLoot>no</DontLoot>
+        <OpenBag>Looter's setting value</OpenBag>
+        <PlayAlarm>no</PlayAlarm>
+        <OnlyIfTrapped>no</OnlyIfTrapped>
+        <Skin>No skin</Skin>
+        <Count>Any</Count>
+        <Settings>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>100</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>Chase/Offensive</AttackMode>
+          </Setting>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>0</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>No change</AttackMode>
+          </Setting>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>0</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>No change</AttackMode>
+          </Setting>
+        </Settings>
+      </t4>
+      <t5>
+        <Name>Minotaur Mage</Name>
+        <Category />
+        <DontLoot>no</DontLoot>
+        <OpenBag>Looter's setting value</OpenBag>
+        <PlayAlarm>no</PlayAlarm>
+        <OnlyIfTrapped>no</OnlyIfTrapped>
+        <Skin>No skin</Skin>
+        <Count>Any</Count>
+        <Settings>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>100</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>Chase/Offensive</AttackMode>
+          </Setting>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>0</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>No change</AttackMode>
+          </Setting>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>0</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>No change</AttackMode>
+          </Setting>
+        </Settings>
+      </t5>
+      <t6>
+        <Name>Minotaur</Name>
+        <Category />
+        <DontLoot>no</DontLoot>
+        <OpenBag>Looter's setting value</OpenBag>
+        <PlayAlarm>no</PlayAlarm>
+        <OnlyIfTrapped>no</OnlyIfTrapped>
+        <Skin>No skin</Skin>
+        <Count>Any</Count>
+        <Settings>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>100</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>Chase/Offensive</AttackMode>
+          </Setting>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>0</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>No change</AttackMode>
+          </Setting>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>0</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>No change</AttackMode>
+          </Setting>
+        </Settings>
+      </t6>
+      <t7>
+        <Name>Wolf</Name>
+        <Category />
+        <DontLoot>no</DontLoot>
+        <OpenBag>Looter's setting value</OpenBag>
+        <PlayAlarm>no</PlayAlarm>
+        <OnlyIfTrapped>no</OnlyIfTrapped>
+        <Skin>No skin</Skin>
+        <Count>Any</Count>
+        <Settings>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>100</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>Chase/Offensive</AttackMode>
+          </Setting>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>0</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>No change</AttackMode>
+          </Setting>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>0</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>No change</AttackMode>
+          </Setting>
+        </Settings>
+      </t7>
+      <t8>
+        <Name>Wild Warrior</Name>
+        <Category />
+        <DontLoot>no</DontLoot>
+        <OpenBag>Looter's setting value</OpenBag>
+        <PlayAlarm>no</PlayAlarm>
+        <OnlyIfTrapped>no</OnlyIfTrapped>
+        <Skin>No skin</Skin>
+        <Count>Any</Count>
+        <Settings>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>100</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>Chase/Offensive</AttackMode>
+          </Setting>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>0</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>No change</AttackMode>
+          </Setting>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>0</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>No change</AttackMode>
+          </Setting>
+        </Settings>
+      </t8>
+      <t9>
+        <Name>Hunter</Name>
+        <Category />
+        <DontLoot>no</DontLoot>
+        <OpenBag>Looter's setting value</OpenBag>
+        <PlayAlarm>no</PlayAlarm>
+        <OnlyIfTrapped>no</OnlyIfTrapped>
+        <Skin>No skin</Skin>
+        <Count>Any</Count>
+        <Settings>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>100</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>Chase/Offensive</AttackMode>
+          </Setting>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>0</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>No change</AttackMode>
+          </Setting>
+          <Setting>
+            <HpMin>0</HpMin>
+            <HpMax>0</HpMax>
+            <Danger>0</Danger>
+            <Avoid>No avoid</Avoid>
+            <Stance>No stance</Stance>
+            <Rune>No spell</Rune>
+            <Spam>1900 to 2100</Spam>
+            <Distance>0</Distance>
+            <AttackMode>No change</AttackMode>
+          </Setting>
+        </Settings>
+      </t9>
+    </List>
+    <SpecialAreas />
+    <TargetingPriority Danger="100" Proximity="80" Health="70" Stick="90" List="50" MustBeReachable="yes" MustBeShootable="no" />
+    <LootingPriority>no</LootingPriority>
+    <Enabled>yes</Enabled>
+  </Targeting>
+  <Runemaker>
+    <Rune>Ultimate Healing Rune</Rune>
+    <Hand>Left Hand</Hand>
+    <ManaMin>100</ManaMin>
+    <ManaMax>300</ManaMax>
+    <Condition>Mana above</Condition>
+    <NoBlanks>Do nothing</NoBlanks>
+    <DropSettings>
+      <Character X="0" Y="0" Z="0" />
+      <Rune X="0" Y="0" Z="0" Max="4" Enabled="no" />
+      <Food X="0" Y="0" Z="0" MaxPick="10" Enabled="no" />
+      <Blank X="0" Y="0" Z="0" Min="0" MaxBlankBPs="1" UseBlankBPs="no" Enabled="no" />
+      <Danger X="0" Y="0" Z="0" XLog="yes" WalkBack="yes" WalkBackTimeFormat="Minutes" WalkBackTime_Min="4" WalkBackTime_Max="5" Player="no" PK="no" Monster="no" Attacked="no" FieldDmg="no" Enabled="no" />
+    </DropSettings>
+    <Enabled>yes</Enabled>
+  </Runemaker>
+  <Tools>
+    <Fishing>
+      <MaxAmount>10</MaxAmount>
+      <Consider>Min. Capacity</Consider>
+      <FishingRod>Wooden fishing rod</FishingRod>
+      <FishingStyle>Water and Pools</FishingStyle>
+      <DetectWater>no</DetectWater>
+      <Spots />
+      <Enabled>no</Enabled>
+    </Fishing>
+    <ManaTrainer>
+      <Enabled>no</Enabled>
+      <Spell>Light</Spell>
+      <Min>30</Min>
+      <Max>35</Max>
+      <Condition>Mana above</Condition>
+    </ManaTrainer>
+    <Reconnecter>
+      <OpenMainBP>no</OpenMainBP>
+      <OpenBPs>no</OpenBPs>
+      <WaitFormat>Minutes</WaitFormat>
+      <WaitTime_Min>4</WaitTime_Min>
+      <WaitTime_Max>5</WaitTime_Max>
+      <Enabled>no</Enabled>
+    </Reconnecter>
+    <AutoManaShield>
+      <Enabled>no</Enabled>
+    </AutoManaShield>
+    <AutoInvisible>
+      <Enabled>no</Enabled>
+    </AutoInvisible>
+    <AutoHaste>
+      <Value>Haste</Value>
+      <Enabled>no</Enabled>
+    </AutoHaste>
+    <CreatureTrainer>
+      <Name>Monk</Name>
+      <StartAttack>80</StartAttack>
+      <StopAttack>30</StopAttack>
+      <Enabled>no</Enabled>
+    </CreatureTrainer>
+    <RingEquipper>
+      <Consider>Health</Consider>
+      <Ring>Life Ring</Ring>
+      <EquipValue>0</EquipValue>
+      <UnequipValue>0</UnequipValue>
+      <Enabled>no</Enabled>
+    </RingEquipper>
+    <PickupSpear>
+      <Hand>Left Hand</Hand>
+      <Position>Targeting Position</Position>
+      <Count>0</Count>
+      <Enabled>no</Enabled>
+    </PickupSpear>
+    <RefillAmmo>
+      <Item>Bolt</Item>
+      <Count>0</Count>
+      <Enabled>no</Enabled>
+    </RefillAmmo>
+    <HealFriend>
+      <HealthPercent>0</HealthPercent>
+      <Spell>Light Heal Friend</Spell>
+      <PartyMembers>no</PartyMembers>
+      <List />
+      <Enabled>no</Enabled>
+    </HealFriend>
+    <TradeHelper>
+      <Text />
+      <Yell>no</Yell>
+      <SelectPreviousChannel>no</SelectPreviousChannel>
+      <Enabled>no</Enabled>
+    </TradeHelper>
+    <AutoMinning>
+      <Tool>Advanced Pick</Tool>
+      <Ore>All</Ore>
+      <Enabled>no</Enabled>
+    </AutoMinning>
+    <OutfitChanger>
+      <EnemiesId>162</EnemiesId>
+      <EnemiesColor>Red</EnemiesColor>
+      <EnemiesList />
+      <FriendsId>163</FriendsId>
+      <FriendsColor>Blue</FriendsColor>
+      <FriendsList />
+      <OthersId>144</OthersId>
+      <OthersColor>White</OthersColor>
+      <OthersList />
+      <Enabled>no</Enabled>
+    </OutfitChanger>
+  </Tools>
+  <Persistents>
+    <List />
+  </Persistents>
+  <HUDs>
+    <RefreshRate>1000</RefreshRate>
+    <Waypoints>no</Waypoints>
+    <SpecialAreas>no</SpecialAreas>
+    <X-Ray>no</X-Ray>
+    <CursorInfo>no</CursorInfo>
+    <MwallTimers>no</MwallTimers>
+    <ContainersIndex>no</ContainersIndex>
+    <Inventory>no</Inventory>
+    <InventoryColor>B4B4B4</InventoryColor>
+    <ShowPersistents>no</ShowPersistents>
+    <KilledLootedCounts>no</KilledLootedCounts>
+    <List />
+    <Enabled>no</Enabled>
+  </HUDs>
+</Settings>
